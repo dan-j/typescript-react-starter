@@ -1,0 +1,9 @@
+{
+    "extends": ["tslint-config-airbnb", "tslint-react"],
+    "rules": {
+        "indent": [true, "spaces"],
+        "ter-indent": [true, 4],
+        "import-name": false,
+        "variable-name": [true, "allow-pascal-case"]
+    }
+}
