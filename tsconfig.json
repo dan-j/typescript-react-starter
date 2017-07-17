@@ -1,22 +1,17 @@
 {
-  "compilerOptions": {
-    "target": "es2015",
-    "module": "es2015",
-    "jsx": "preserve",
-    "sourceMap": true,
-    "outDir": "ts-build",
-    /* Strict Type-Checking Options */
-    "strict": true,
-    "noImplicitAny": true,
-    "strictNullChecks": true,
-    "baseUrl": "src",
-    "allowSyntheticDefaultImports": true
-
-    /* Experimental Options */
-    // "experimentalDecorators": true, /* Enables experimental support for ES7 decorators. */
-    // "emitDecoratorMetadata": true
-  },
-  "exclude": [
-    "node_modules"
-  ]
+    "compilerOptions": {
+        "target": "es2015",
+        "module": "es2015",
+        "jsx": "preserve",
+        "sourceMap": true,
+        "outDir": "ts-build",
+        "strict": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "baseUrl": "src",
+        "allowSyntheticDefaultImports": true
+    },
+    "exclude": [
+        "node_modules"
+    ]
 }
