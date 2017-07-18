@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> Renders a default greeting 1`] = `
+<div>
+  <p
+    className="greeting"
+  >
+    Hello, 
+    World
+  </p>
+</div>
+`;
+
+exports[`<App /> Renders a personalised greeting 1`] = `
+<div>
+  <p
+    className="greeting"
+  >
+    Hello, 
+    Dan
+  </p>
+</div>
+`;

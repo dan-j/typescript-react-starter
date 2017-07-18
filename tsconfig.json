@@ -4,11 +4,13 @@
         "module": "es2015",
         "jsx": "preserve",
         "sourceMap": true,
+        "inlineSources": true,
         "outDir": "ts-build",
         "strict": true,
         "noImplicitAny": true,
         "strictNullChecks": true,
         "baseUrl": "src",
+        "allowJs": true,
         "allowSyntheticDefaultImports": true
     },
     "exclude": [
