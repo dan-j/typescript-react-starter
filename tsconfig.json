@@ -4,7 +4,6 @@
         "module": "es2015",
         "jsx": "preserve",
         "sourceMap": true,
-        "inlineSources": true,
         "outDir": "ts-build",
         "strict": true,
         "noImplicitAny": true,

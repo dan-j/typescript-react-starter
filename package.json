@@ -72,11 +72,12 @@
         ],
         "rootDir": "src",
         "transform": {
-            "^.+\\.[jt]sx?$": "../preprocessor.js"
+            "^.+\\.[jt]sx?$": "<rootDir>/../jest-preprocessor.js"
         },
         "testMatch": [
-            "**/__tests__/**/*.(ts|tsx|js)"
+            "**/__tests__/**/*.test.(ts|tsx|js)"
         ],
-        "mapCoverage": true
+        "mapCoverage": true,
+        "collectCoverageFrom": ["src/**/*.{js,jsx,ts,tsx}"]
     }
 }
